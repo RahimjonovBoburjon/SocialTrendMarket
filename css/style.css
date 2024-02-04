@@ -397,6 +397,7 @@ a:focus {
   margin-top: 25px;
   border-radius: 15px;
   overflow: hidden;
+  border: 1px solid #f0d43a;
 }
 
 .shop_section .box a {
@@ -659,8 +660,21 @@ a:focus {
   transform: translateY(-3px);
 }
 
+.logo {
+  width: 30%;
+  padding: 8px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 @media (max-width: 352px) {
   .navbar-brand span {
     font-size: 20px;
+  }
+
+  .logo {
+    width: 20%;
+    padding: 8px;
   }
 }
