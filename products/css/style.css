@@ -290,7 +290,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .shop_section .btn-box {
@@ -375,6 +375,14 @@ a:focus {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.red-box {
+  border: 1px solid rgb(255, 111, 111) !important;
+}
+
+.red-new {
+  background-color:  rgb(255, 111, 111) !important;
 }
 
 @media (max-width: 352px) {
